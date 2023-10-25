@@ -52,8 +52,8 @@ summary.lm(simp)
 ```
 
 ```{r}
-width <- lm(LENGTH~WIDTH,data=bears)
-plot(LENGTH~WIDTH,data=bears)
+width <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
