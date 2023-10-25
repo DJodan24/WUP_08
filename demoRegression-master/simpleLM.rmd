@@ -50,3 +50,10 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+
+```{r}
+width <- lm(LENGTH~WIDTH,data=bears)
+plot(LENGTH~WIDTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
